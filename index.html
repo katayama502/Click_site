@@ -46,6 +46,12 @@
 <!-- HOME -->
 <main class="layout" id="homeView">
   <aside class="sidebar" id="sidebar">
+    <button class="drawer-close" id="drawerClose" aria-label="メニューを閉じる">×</button>
+    <nav class="drawer-nav">
+      <a href="#" data-nav="home" class="drawer-link">🏠 ホーム</a>
+      <a href="#" data-nav="videos" class="drawer-link">🎬 動画で学ぶ</a>
+      <a href="https://manual.click.dev/6426cda9c36c47b9a198a99f3368f39a" target="_blank" rel="noopener" class="drawer-link">📘 公式マニュアル ↗</a>
+    </nav>
     <h2 class="sidebar-title">カテゴリ</h2>
     <ul class="cat-list" id="catList"></ul>
   </aside>
@@ -82,6 +88,9 @@
   <p class="section-lead">Click公式YouTubeチャンネルの解説動画を、テーマごとにまとめました。</p>
   <div id="videoGroups"></div>
 </main>
+
+<!-- MOBILE DRAWER BACKDROP -->
+<div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
 
 <!-- TOPIC DETAIL MODAL -->
 <div class="modal-overlay" id="modalOverlay" hidden>

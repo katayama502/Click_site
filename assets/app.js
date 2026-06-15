@@ -117,7 +117,7 @@
     html += cats.map(c => '<li class="cat-item '+(activeCat===c?"active":"")+'" data-cat="'+escapeHtml(c)+'"><span class="cat-emoji">'+CAT_META[c].emoji+'</span>'+escapeHtml(c)+'<span class="cat-count">'+counts[c]+'</span></li>').join("");
     $("catList").innerHTML = html;
     $("catList").querySelectorAll(".cat-item").forEach(el => {
-      el.addEventListener("click", () => { activeCat = el.dataset.cat; renderSidebar(); renderTopics(); window.scrollTo({top: heroEl.offsetHeight, behavior:"smooth"}); });
+      el.addEventListener("click", () => { activeCat = el.dataset.cat; renderSidebar(); renderTopics(); closeDrawer(); window.scrollTo({top: heroEl.offsetHeight, behavior:"smooth"}); });
     });
   }
 
@@ -253,7 +253,13 @@
   function showModal(){ $("modalOverlay").hidden = false; document.body.style.overflow = "hidden"; }
   function closeModal(){ $("modalOverlay").hidden = true; $("modalBody").innerHTML = ""; document.body.style.overflow = ""; }
 
+  // モバイル用の左サイドドロワー
+  function openDrawer(){ $("sidebar").classList.add("open"); $("drawerBackdrop").hidden = false; document.body.style.overflow = "hidden"; }
+  function closeDrawer(){ $("sidebar").classList.remove("open"); $("drawerBackdrop").hidden = true; document.body.style.overflow = ""; }
+  function toggleDrawer(){ $("sidebar").classList.contains("open") ? closeDrawer() : openDrawer(); }
+
   function go(view) {
+    closeDrawer();
     if (view === "videos") { exitSearch(); homeView.hidden = true; videoView.hidden = false; renderVideoLibrary(); window.scrollTo({top:0,behavior:"smooth"}); }
     else { $("searchInput").value=""; $("searchClear").hidden=true; exitSearch(); window.scrollTo({top:0,behavior:"smooth"}); }
   }
@@ -278,9 +284,14 @@
     $("searchClear").addEventListener("click", () => { $("searchInput").value=""; $("searchClear").hidden=true; exitSearch(); });
     $("modalClose").addEventListener("click", closeModal);
     $("modalOverlay").addEventListener("click", (e) => { if (e.target === $("modalOverlay")) closeModal(); });
-    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeModal(); closeDrawer(); } });
     document.querySelectorAll("[data-nav]").forEach(el => el.addEventListener("click", (e) => { e.preventDefault(); go(el.dataset.nav); }));
-    $("menuToggle").addEventListener("click", () => document.querySelector(".header-nav").classList.toggle("open"));
+    // ハンバーガー → 左サイドドロワーの開閉
+    $("menuToggle").addEventListener("click", toggleDrawer);
+    $("drawerClose").addEventListener("click", closeDrawer);
+    $("drawerBackdrop").addEventListener("click", closeDrawer);
+    // ドロワー内の外部リンク(公式マニュアル)タップでも閉じる
+    document.querySelectorAll(".drawer-nav .drawer-link").forEach(el => el.addEventListener("click", closeDrawer));
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
