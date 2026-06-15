@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Click かんたんガイド｜ノーコードアプリ作成の使い方・解説</title>
+<meta name="description" content="ノーコードアプリ作成ツール「Click」の使い方を、機能ごと・やりたいことごとに検索して学べるガイドサイト。YouTube解説動画と公式マニュアルをわかりやすくまとめました。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#" data-nav="home">
+      <span class="brand-mark">C</span>
+      <span class="brand-text">Click かんたんガイド</span>
+    </a>
+    <nav class="header-nav">
+      <a href="#" data-nav="home" class="hnav-link">ホーム</a>
+      <a href="#" data-nav="videos" class="hnav-link">動画で学ぶ</a>
+      <a href="https://manual.click.dev/6426cda9c36c47b9a198a99f3368f39a" target="_blank" rel="noopener" class="hnav-link">公式マニュアル ↗</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニュー">☰</button>
+  </div>
+</header>
+
+<!-- HERO + SEARCH -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <h1 class="hero-title">Clickの使い方、ここで全部わかる。</h1>
+    <p class="hero-sub">ノーコードでアプリが作れる「Click」の操作・機能を、<br>やりたいことから検索。動画とマニュアルをやさしく解説します。</p>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="search" id="searchInput" placeholder="やりたいことを入力（例：ボタン、ログイン、検索、いいね…）" autocomplete="off">
+      <button class="search-clear" id="searchClear" aria-label="クリア" hidden>×</button>
+    </div>
+    <div class="quick-tags" id="quickTags"></div>
+  </div>
+</section>
+
+<!-- SEARCH RESULTS -->
+<section class="search-results" id="searchResults" hidden></section>
+
+<!-- HOME -->
+<main class="layout" id="homeView">
+  <aside class="sidebar" id="sidebar">
+    <h2 class="sidebar-title">カテゴリ</h2>
+    <ul class="cat-list" id="catList"></ul>
+  </aside>
+
+  <div class="content" id="content">
+    <!-- Goal cards -->
+    <section class="goals" id="goalsSection">
+      <h2 class="section-h">🎯 目的から探す</h2>
+      <p class="section-lead">「こんなアプリ・機能を作りたい」から、必要な解説にジャンプできます。</p>
+      <div class="goal-grid" id="goalGrid"></div>
+    </section>
+
+    <!-- Beginner path -->
+    <section class="path" id="pathSection">
+      <h2 class="section-h">🚀 はじめての人はこの順番で</h2>
+      <p class="section-lead">動画チュートリアルに沿って進めば、最初のアプリが完成します。</p>
+      <ol class="path-list" id="pathList"></ol>
+    </section>
+
+    <!-- Topics by category -->
+    <section class="topics" id="topicsSection">
+      <div class="topics-head">
+        <h2 class="section-h" id="topicsTitle">すべての解説</h2>
+        <span class="topics-count" id="topicsCount"></span>
+      </div>
+      <div class="topic-grid" id="topicGrid"></div>
+    </section>
+  </div>
+</main>
+
+<!-- VIDEO LIBRARY -->
+<main class="video-view" id="videoView" hidden>
+  <h2 class="section-h">🎬 動画で学ぶ</h2>
+  <p class="section-lead">Click公式YouTubeチャンネルの解説動画を、テーマごとにまとめました。</p>
+  <div id="videoGroups"></div>
+</main>
+
+<!-- TOPIC DETAIL MODAL -->
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="閉じる">×</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>このサイトは Click の使い方を学ぶための非公式まとめガイドです。情報は公式マニュアルとYouTubeチャンネルをもとにしています。</p>
+    <p class="footer-links">
+      <a href="https://manual.click.dev/6426cda9c36c47b9a198a99f3368f39a" target="_blank" rel="noopener">公式マニュアル</a>
+      ・
+      <a href="https://www.youtube.com/@Clicknocode" target="_blank" rel="noopener">公式YouTube</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

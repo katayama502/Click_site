@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "1d7b3ff290338007a3f0fb7342ed7ae0",
+    "title": "アカウント作成およびログインの方法",
+    "category": "はじめに",
+    "url": "https://manual.click.dev/1d7b3ff290338007a3f0fb7342ed7ae0",
+    "kind": "page"
+  },
+  {
+    "id": "1acb3ff2903380099387eda0a31b81f0",
+    "title": "ワークスペース（4件の記事）",
+    "category": "はじめに",
+    "url": "https://manual.click.dev/1acb3ff2903380099387eda0a31b81f0",
+    "kind": "page"
+  },
+  {
+    "id": "c94d4c4381e84171b720b5e0e3bf24de",
+    "title": "👆🏻 Clickで重要な３つの要素",
+    "category": "はじめに",
+    "url": "https://manual.click.dev/c94d4c4381e84171b720b5e0e3bf24de",
+    "kind": "page"
+  },
+  {
+    "id": "735de2e837974168b89f623fdd62fa8b",
+    "title": "💻 推奨環境について",
+    "category": "はじめに",
+    "url": "https://manual.click.dev/735de2e837974168b89f623fdd62fa8b",
+    "kind": "page"
+  },
+  {
+    "id": "64481bafbd42495f997fde668fca9cee",
+    "title": "🔰 キャンバスの操作方法",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/64481bafbd42495f997fde668fca9cee",
+    "kind": "page"
+  },
+  {
+    "id": "2cab3ff2903380099d78c0896486b5f9",
+    "title": "📄 ページ（白紙・モーダル）",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/2cab3ff2903380099d78c0896486b5f9",
+    "kind": "page"
+  },
+  {
+    "id": "2f7b3ff29033802b911dd754763e609a",
+    "title": "📱 アプリの開始ページ設定方法",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/2f7b3ff29033802b911dd754763e609a",
+    "kind": "page"
+  },
+  {
+    "id": "321b3ff2903380b3a862cd5d2620179f",
+    "title": "アカウント登録機能仕様",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/321b3ff2903380b3a862cd5d2620179f",
+    "kind": "page"
+  },
+  {
+    "id": "1b0b3ff29033801e8f36ea65d3b0db7e",
+    "title": "アプリのWeb公開（Webアプリ）方法とWebサイトへの埋め込み",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/1b0b3ff29033801e8f36ea65d3b0db7e",
+    "kind": "page"
+  },
+  {
+    "id": "2cab3ff290338082af69f60e74545521",
+    "title": "💻 PCアプリ公開時の画面幅固定の方法",
+    "category": "基本操作",
+    "url": "https://manual.click.dev/2cab3ff290338082af69f60e74545521",
+    "kind": "page"
+  },
+  {
+    "id": "191b3ff2903380cfabf2c85566b5d1d4",
+    "title": "データベースの操作方法",
+    "category": "データベース",
+    "url": "https://manual.click.dev/191b3ff2903380cfabf2c85566b5d1d4",
+    "kind": "page"
+  },
+  {
+    "id": "20f0502ea59146f497d00fb6ce43b089",
+    "title": "⏬ データのダウンロード/アップロード/一括更新",
+    "category": "データベース",
+    "url": "https://manual.click.dev/20f0502ea59146f497d00fb6ce43b089",
+    "kind": "page"
+  },
+  {
+    "id": "cd5303d48e914496bd4ea34022374a24",
+    "title": "エレメント操作方法（41件の記事）",
+    "category": "キャンバス",
+    "url": "https://manual.click.dev/cd5303d48e914496bd4ea34022374a24",
+    "kind": "page"
+  },
+  {
+    "id": "2f7b3ff2903380219bcbfa9421c3a907",
+    "title": "キャンバス操作時の注意事項",
+    "category": "キャンバス",
+    "url": "https://manual.click.dev/2f7b3ff2903380219bcbfa9421c3a907",
+    "kind": "page"
+  },
+  {
+    "id": "17ab3ff2903380a58477c06ae61257ad",
+    "title": "レイヤー",
+    "category": "キャンバス",
+    "url": "https://manual.click.dev/17ab3ff2903380a58477c06ae61257ad",
+    "kind": "page"
+  },
+  {
+    "id": "17db3ff290338071a3e0e8fae92a0473",
+    "title": "ブランドアセット(カラー設定）",
+    "category": "キャンバス",
+    "url": "https://manual.click.dev/17db3ff290338071a3e0e8fae92a0473",
+    "kind": "page"
+  },
+  {
+    "id": "9c91ef51922c4349ac1afe1263585f01",
+    "title": "⚡ アクションの操作方法",
+    "category": "キャンバス",
+    "url": "https://manual.click.dev/9c91ef51922c4349ac1afe1263585f01",
+    "kind": "page"
+  },
+  {
+    "id": "238b3ff2903380489eefc15bbfbbbf59",
+    "title": "Clickのレスポンシブデザイン（PC/タブレット/モバイル）",
+    "category": "レスポンシブ",
+    "url": "https://manual.click.dev/238b3ff2903380489eefc15bbfbbbf59",
+    "kind": "page"
+  },
+  {
+    "id": "2b7b3ff2903380c29d7dd66d3ef51c8d",
+    "title": "JPYC",
+    "category": "決済",
+    "url": "https://manual.click.dev/2b7b3ff2903380c29d7dd66d3ef51c8d",
+    "kind": "page"
+  },
+  {
+    "id": "a210c522111440dfafe9f1d1b86b6168",
+    "title": "Click Pay",
+    "category": "決済",
+    "url": "https://manual.click.dev/a210c522111440dfafe9f1d1b86b6168",
+    "kind": "page"
+  },
+  {
+    "id": "1f0b3ff290338099bd1fcced40eaa152",
+    "title": "アンケートテンプレート（CMS）β版",
+    "category": "ページテンプレート",
+    "url": "https://manual.click.dev/1f0b3ff290338099bd1fcced40eaa152",
+    "kind": "page"
+  },
+  {
+    "id": "185b3ff2903380daa8a8d358eefd5d1a",
+    "title": "Googleスプレッドシート連携",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/185b3ff2903380daa8a8d358eefd5d1a",
+    "kind": "page"
+  },
+  {
+    "id": "185b3ff2903380398b12c4c207e605a0",
+    "title": "kintone連携",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/185b3ff2903380398b12c4c207e605a0",
+    "kind": "page"
+  },
+  {
+    "id": "84ab8e2a6659495ca15e25f9e1988e14",
+    "title": "🧬 Zapier連携(中級者以上)",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/84ab8e2a6659495ca15e25f9e1988e14",
+    "kind": "page"
+  },
+  {
+    "id": "4db6cada07dd444d935a50d9395de187",
+    "title": "デジタルスタンプ機能",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/4db6cada07dd444d935a50d9395de187",
+    "kind": "page"
+  },
+  {
+    "id": "54ed31eb81dd4839a46b3e81af9a314a",
+    "title": "AIチャットボットエレメント",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/54ed31eb81dd4839a46b3e81af9a314a",
+    "kind": "page"
+  },
+  {
+    "id": "1b2b3ff29033804ba3c5ffceec221a1c",
+    "title": "LINEアカウント 連携",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/1b2b3ff29033804ba3c5ffceec221a1c",
+    "kind": "page"
+  },
+  {
+    "id": "314b3ff2903380fcb3fce2a8dd651f88",
+    "title": "🍌 AI画像生成機能（Nano Banana Pro 連携）",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/314b3ff2903380fcb3fce2a8dd651f88",
+    "kind": "page"
+  },
+  {
+    "id": "8247fea703e94204a22c26810c631377",
+    "title": "AI連携",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/8247fea703e94204a22c26810c631377",
+    "kind": "page"
+  },
+  {
+    "id": "48af73b000a74bce89832d6310b073bf",
+    "title": "API連携(上級者)",
+    "category": "外部サービス連携",
+    "url": "https://manual.click.dev/48af73b000a74bce89832d6310b073bf",
+    "kind": "page"
+  },
+  {
+    "id": "21cb3ff29033803ea6e4d9a5af137b44",
+    "title": "Google Tag Manager（GTM）連携",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/21cb3ff29033803ea6e4d9a5af137b44",
+    "kind": "page"
+  },
+  {
+    "id": "1ceb3ff2903380e2b1ecf10783a4a068",
+    "title": "Googleアナリティクス（GA4）連携",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/1ceb3ff2903380e2b1ecf10783a4a068",
+    "kind": "page"
+  },
+  {
+    "id": "f53796e7002345b7b0151afb801e4386",
+    "title": "🔔 Push通知の設定",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/f53796e7002345b7b0151afb801e4386",
+    "kind": "page"
+  },
+  {
+    "id": "2f088709315d45238d6c77db885a3d9f",
+    "title": "📱 Clickアプリのビルド（１）－Firebase事前準備（iOS/Android共通）",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/2f088709315d45238d6c77db885a3d9f",
+    "kind": "page"
+  },
+  {
+    "id": "2b2b3ff29033800b8dc8c395066c334c",
+    "title": "Clickアプリのビルド（２）：iOSアプリのビルド",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/2b2b3ff29033800b8dc8c395066c334c",
+    "kind": "page"
+  },
+  {
+    "id": "2b6b3ff29033804fb1a9fa5e6cb149b0",
+    "title": "ｉＯＳアプリのストア公開",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/2b6b3ff29033804fb1a9fa5e6cb149b0",
+    "kind": "page"
+  },
+  {
+    "id": "33cb3ff2903381418f42c99d0565094f",
+    "title": "📱 ネイティブアプリ（ストア公開）の有料設定について",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/33cb3ff2903381418f42c99d0565094f",
+    "kind": "page"
+  },
+  {
+    "id": "5aafbfdcca1142878ea5d41108ff28eb",
+    "title": "GoogleAdMob",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/5aafbfdcca1142878ea5d41108ff28eb",
+    "kind": "page"
+  },
+  {
+    "id": "30bb3ff290338094b396e19f20506a24",
+    "title": "独自ドメインの設定方法",
+    "category": "Proプラン機能",
+    "url": "https://manual.click.dev/30bb3ff290338094b396e19f20506a24",
+    "kind": "page"
+  },
+  {
+    "id": "22ab3ff29033806aa832d9d0c9c9a1d6",
+    "title": "検索エレメント",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/22ab3ff29033806aa832d9d0c9c9a1d6",
+    "kind": "page"
+  },
+  {
+    "id": "101b3ff290338066a416cf616365c0dd",
+    "title": "タイマーエレメント",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/101b3ff290338066a416cf616365c0dd",
+    "kind": "page"
+  },
+  {
+    "id": "303b3ff290338054beebf478270a394f",
+    "title": "エレメントの表示設定（条件により表示）と、カスタムフィルターの使い分け",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/303b3ff290338054beebf478270a394f",
+    "kind": "page"
+  },
+  {
+    "id": "255b3ff2903380198120da9e67234b8b",
+    "title": "📅 日時表示のフォーマット",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/255b3ff2903380198120da9e67234b8b",
+    "kind": "page"
+  },
+  {
+    "id": "254b3ff2903380bb957fc4fb97d23831",
+    "title": "📝 関数",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/254b3ff2903380bb957fc4fb97d23831",
+    "kind": "page"
+  },
+  {
+    "id": "32eb3ff290338097afc8c12dae6d2f99",
+    "title": "🧮 データベースを集計する関数",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/32eb3ff290338097afc8c12dae6d2f99",
+    "kind": "page"
+  },
+  {
+    "id": "62ea91d2979443d69cc0a5e211d5c833",
+    "title": "🔑 パスワードリセット",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/62ea91d2979443d69cc0a5e211d5c833",
+    "kind": "page"
+  },
+  {
+    "id": "2f6b3ff29033809e9228c16f3f56e8d9",
+    "title": "⭐ アプリ上部に表示されるClickアイコンを非表示にする",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/2f6b3ff29033809e9228c16f3f56e8d9",
+    "kind": "page"
+  },
+  {
+    "id": "f761a78d2f7e4ef1b533c722c64bcfac",
+    "title": "📲 ホーム画面にアプリを追加する方法",
+    "category": "活用ガイド",
+    "url": "https://manual.click.dev/f761a78d2f7e4ef1b533c722c64bcfac",
+    "kind": "page"
+  },
+  {
+    "id": "286b3ff2903380b2bc0cc87cc2939ce7",
+    "title": "タグ検索・フリーワード検索（データの絞り込み表示）",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/286b3ff2903380b2bc0cc87cc2939ce7",
+    "kind": "page"
+  },
+  {
+    "id": "285b3ff2903380769254dd24a4e01299",
+    "title": "👍🏻 いいね機能",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/285b3ff2903380769254dd24a4e01299",
+    "kind": "page"
+  },
+  {
+    "id": "25db3ff29033805bb458ebfbb00328f8",
+    "title": "🎁 クーポン機能",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/25db3ff29033805bb458ebfbb00328f8",
+    "kind": "page"
+  },
+  {
+    "id": "188b3ff2903380dd9393cb00c1ee034d",
+    "title": "🔍 検索機能",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/188b3ff2903380dd9393cb00c1ee034d",
+    "kind": "page"
+  },
+  {
+    "id": "1c1b3ff2903380a49a5ed0f34cb69ef8",
+    "title": "📮 郵便番号検索（API接続）",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/1c1b3ff2903380a49a5ed0f34cb69ef8",
+    "kind": "page"
+  },
+  {
+    "id": "15eb3ff2903380a8a857ed10aa8ea2d5",
+    "title": "Usernameでログインする方法",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/15eb3ff2903380a8a857ed10aa8ea2d5",
+    "kind": "page"
+  },
+  {
+    "id": "293b3ff29033804f8ac5c2ab23d74579",
+    "title": "QRコードを用いたポイント実装",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/293b3ff29033804f8ac5c2ab23d74579",
+    "kind": "page"
+  },
+  {
+    "id": "2eeb3ff2903380b583dbd4d06595652a",
+    "title": "⏲️ 日付・時間計算マニュアル：開始・終了時間から「〇時間〇分」を算出する",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/2eeb3ff2903380b583dbd4d06595652a",
+    "kind": "page"
+  },
+  {
+    "id": "2d2b3ff290338018b287e7ea90733437",
+    "title": "⏲️ 日時の計算",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/2d2b3ff290338018b287e7ea90733437",
+    "kind": "page"
+  },
+  {
+    "id": "d2f5284675b7499f8383e92c796c7afa",
+    "title": "ファイルダウンロード",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/d2f5284675b7499f8383e92c796c7afa",
+    "kind": "page"
+  },
+  {
+    "id": "2dfb3ff29033808cb029f6f51027318a",
+    "title": "📱 電話をかける",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/2dfb3ff29033808cb029f6f51027318a",
+    "kind": "page"
+  },
+  {
+    "id": "2f1b3ff2903380f29971c21fcd35f1aa",
+    "title": "📧 自動メール送信",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/2f1b3ff2903380f29971c21fcd35f1aa",
+    "kind": "page"
+  },
+  {
+    "id": "fa00ad1b1b95482eab76b309c0f112ad",
+    "title": "📄 アプリ内に利用規約を表示する",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/fa00ad1b1b95482eab76b309c0f112ad",
+    "kind": "page"
+  },
+  {
+    "id": "1060b1af87434ae6a0bc3edfdb1aa11f",
+    "title": "シンプルな抽選",
+    "category": "機能実装",
+    "url": "https://manual.click.dev/1060b1af87434ae6a0bc3edfdb1aa11f",
+    "kind": "page"
+  },
+  {
+    "id": "172b3ff29033806cb561f26ed8337630",
+    "title": "Q.領収書をダウンロードする方法",
+    "category": "アカウント",
+    "url": "https://manual.click.dev/172b3ff29033806cb561f26ed8337630",
+    "kind": "page"
+  },
+  {
+    "id": "c4f63a056e34494cb4eace0a3827b017",
+    "title": "📱 アプリのクローン設定方法",
+    "category": "アプリ共有",
+    "url": "https://manual.click.dev/c4f63a056e34494cb4eace0a3827b017",
+    "kind": "page"
+  },
+  {
+    "id": "1d7b3ff2903380a09a6bd2162f4013f3",
+    "title": "PCアプリのクローン作成方法",
+    "category": "アプリ共有",
+    "url": "https://manual.click.dev/1d7b3ff2903380a09a6bd2162f4013f3",
+    "kind": "page"
+  },
+  {
+    "id": "a45d988679f24574a4f84fc73d455e1c",
+    "title": "FAQ",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/a45d988679f24574a4f84fc73d455e1c",
+    "kind": "page"
+  },
+  {
+    "id": "18bb3ff29033802b89b6d75978dccb43",
+    "title": "Clickアフィリエイトプログラム(アフィリエイトリンク型)マニュアル",
+    "category": "その他",
+    "url": "https://manual.click.dev/18bb3ff29033802b89b6d75978dccb43",
+    "kind": "page"
+  },
+  {
+    "id": "8c192f2e08314f04b242fe408735b887",
+    "title": "テキスト",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/8c192f2e08314f04b242fe408735b887",
+    "kind": "element"
+  },
+  {
+    "id": "45170d6fd2fc443dafa5f146037873a4",
+    "title": "シェイプ",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/45170d6fd2fc443dafa5f146037873a4",
+    "kind": "element"
+  },
+  {
+    "id": "a0f2bdd37860499aa58083cfcb6fd1ff",
+    "title": "線",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/a0f2bdd37860499aa58083cfcb6fd1ff",
+    "kind": "element"
+  },
+  {
+    "id": "744154414075403996766571c6f0933a",
+    "title": "アイコン",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/744154414075403996766571c6f0933a",
+    "kind": "element"
+  },
+  {
+    "id": "a3122f1e38234724afc0428fe1c7a95d",
+    "title": "画像",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/a3122f1e38234724afc0428fe1c7a95d",
+    "kind": "element"
+  },
+  {
+    "id": "03b501a583274a9a97c0af826ce5d369",
+    "title": "動画（ショート動画）",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/03b501a583274a9a97c0af826ce5d369",
+    "kind": "element"
+  },
+  {
+    "id": "ff45a45b755f4df982b90dc4c89f905a",
+    "title": "ボタン1",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/ff45a45b755f4df982b90dc4c89f905a",
+    "kind": "element"
+  },
+  {
+    "id": "31dde95130344e7592a76bdca5e7ba49",
+    "title": "スイッチ",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/31dde95130344e7592a76bdca5e7ba49",
+    "kind": "element"
+  },
+  {
+    "id": "6664dd72f5764e0cb35355c5da192982",
+    "title": "ボタン２",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/6664dd72f5764e0cb35355c5da192982",
+    "kind": "element"
+  },
+  {
+    "id": "6b5ef781e6684ff28a9fe781b3d972bd",
+    "title": "トグル",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/6b5ef781e6684ff28a9fe781b3d972bd",
+    "kind": "element"
+  },
+  {
+    "id": "dada5d7bbcc146068d2f70d162692ddf",
+    "title": "トップ",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/dada5d7bbcc146068d2f70d162692ddf",
+    "kind": "element"
+  },
+  {
+    "id": "0ac3f4787c5247c2af39f0d89c42a3a7",
+    "title": "ボトム",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/0ac3f4787c5247c2af39f0d89c42a3a7",
+    "kind": "element"
+  },
+  {
+    "id": "2e8b678543a34799b0ea4421ef9114e0",
+    "title": "フォーム",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/2e8b678543a34799b0ea4421ef9114e0",
+    "kind": "element"
+  },
+  {
+    "id": "8c47aa1d28f9467c805e95f14d9c2455",
+    "title": "日付インプット",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/8c47aa1d28f9467c805e95f14d9c2455",
+    "kind": "element"
+  },
+  {
+    "id": "61385432eadd40f792394cb46a319fd9",
+    "title": "インプット",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/61385432eadd40f792394cb46a319fd9",
+    "kind": "element"
+  },
+  {
+    "id": "3f9b740c6fa746d288f8029987d3fde7",
+    "title": "ファイルインプット",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/3f9b740c6fa746d288f8029987d3fde7",
+    "kind": "element"
+  },
+  {
+    "id": "564157791223494b9d566ce246ec57c5",
+    "title": "パスワード",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/564157791223494b9d566ce246ec57c5",
+    "kind": "element"
+  },
+  {
+    "id": "887cc2c655034047abf60a85acaebba9",
+    "title": "画像インプット",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/887cc2c655034047abf60a85acaebba9",
+    "kind": "element"
+  },
+  {
+    "id": "142b3ff29033806c9610cf903325cf69",
+    "title": "アンケート",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/142b3ff29033806c9610cf903325cf69",
+    "kind": "element"
+  },
+  {
+    "id": "1f1b3ff29033805bbcb1fac201c1fa0b",
+    "title": "コード読み取り",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/1f1b3ff29033805bbcb1fac201c1fa0b",
+    "kind": "element"
+  },
+  {
+    "id": "2da64800888648b28dff070dd092abec",
+    "title": "リスト",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/2da64800888648b28dff070dd092abec",
+    "kind": "element"
+  },
+  {
+    "id": "3ba1abcb8e3342c593307f6d303b7dee",
+    "title": "水平リスト",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/3ba1abcb8e3342c593307f6d303b7dee",
+    "kind": "element"
+  },
+  {
+    "id": "188b3ff290338061b1ffee6546bc10d4",
+    "title": "タグリスト",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/188b3ff290338061b1ffee6546bc10d4",
+    "kind": "element"
+  },
+  {
+    "id": "188b3ff2903380faa3e9e5fa27ed4d98",
+    "title": "アバーターリスト",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/188b3ff2903380faa3e9e5fa27ed4d98",
+    "kind": "element"
+  },
+  {
+    "id": "610f06f2dba149f0921029f33999d5b7",
+    "title": "カルーセル",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/610f06f2dba149f0921029f33999d5b7",
+    "kind": "element"
+  },
+  {
+    "id": "1aeb3ff2903380c0898cf70bf43ec534",
+    "title": "スタックカルーセル",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/1aeb3ff2903380c0898cf70bf43ec534",
+    "kind": "element"
+  },
+  {
+    "id": "1a7b3ff2903380fa9899c9095f41c949",
+    "title": "カレンダー",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/1a7b3ff2903380fa9899c9095f41c949",
+    "kind": "element"
+  },
+  {
+    "id": "151b3ff2903380c4beb5e0dd0b3fe1b9",
+    "title": "テーブル",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/151b3ff2903380c4beb5e0dd0b3fe1b9",
+    "kind": "element"
+  },
+  {
+    "id": "68924231e8be44b3863a515bd23c66d4",
+    "title": "ドロップダウン",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/68924231e8be44b3863a515bd23c66d4",
+    "kind": "element"
+  },
+  {
+    "id": "99a6ef68041f4f539440fdc90b840eca",
+    "title": "バーコード生成・コード読み取り",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/99a6ef68041f4f539440fdc90b840eca",
+    "kind": "element"
+  },
+  {
+    "id": "130b3ff2903380188921e7a81bdf145d",
+    "title": "LINEアカウント連携",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/130b3ff2903380188921e7a81bdf145d",
+    "kind": "element"
+  },
+  {
+    "id": "03ccc4c610434d68995a2c3cfa5d7d3d",
+    "title": "YouTube",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/03ccc4c610434d68995a2c3cfa5d7d3d",
+    "kind": "element"
+  },
+  {
+    "id": "1aeb3ff290338053ad06fea6575caf3c",
+    "title": "チャット",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/1aeb3ff290338053ad06fea6575caf3c",
+    "kind": "element"
+  },
+  {
+    "id": "efed9cc43bd64bc58d4382ee099f671e",
+    "title": "Map",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/efed9cc43bd64bc58d4382ee099f671e",
+    "kind": "element"
+  },
+  {
+    "id": "b998c5011c09437c9fad69dc1aecc808",
+    "title": "Vimeo",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/b998c5011c09437c9fad69dc1aecc808",
+    "kind": "element"
+  },
+  {
+    "id": "232b3ff2903380ffad05c124b8c1e36f",
+    "title": "⭐ 星評価エレメント",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/232b3ff2903380ffad05c124b8c1e36f",
+    "kind": "element"
+  },
+  {
+    "id": "ab01fbf86b894fe98434b5237733ed45",
+    "title": "ウェブビュー",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/ab01fbf86b894fe98434b5237733ed45",
+    "kind": "element"
+  },
+  {
+    "id": "116b3ff2903380259b4dd452bb2a8325",
+    "title": "Lottie",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/116b3ff2903380259b4dd452bb2a8325",
+    "kind": "element"
+  },
+  {
+    "id": "18fb3ff2903380118d61ff297db90cc5",
+    "title": "右側パネルの操作マニュアル",
+    "category": "エレメント",
+    "url": "https://manual.click.dev/18fb3ff2903380118d61ff297db90cc5",
+    "kind": "element"
+  },
+  {
+    "id": "0d74002f860543758df690fea3f747d8",
+    "title": "📔 Qページを削除する方法について教えてください",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/0d74002f860543758df690fea3f747d8",
+    "kind": "faq"
+  },
+  {
+    "id": "b6689a732843460ca8b69a53fb17b7d4",
+    "title": "📊 Q.円グラフは作れますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/b6689a732843460ca8b69a53fb17b7d4",
+    "kind": "faq"
+  },
+  {
+    "id": "1ead032069b646e08640c368edd5fe6d",
+    "title": "📔 Q Clickとは別のデータベースをAPIにて利用する場合、レコード件数の上限はありますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1ead032069b646e08640c368edd5fe6d",
+    "kind": "faq"
+  },
+  {
+    "id": "22dc73387b524090b7eaf5e5449d3da9",
+    "title": "Q.JavaScriptの使用はできますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/22dc73387b524090b7eaf5e5449d3da9",
+    "kind": "faq"
+  },
+  {
+    "id": "fced97e35c0b4ad3b8f994213fe54724",
+    "title": "Q.画面のどこをpushしてもクリックフローが反応するようにできますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/fced97e35c0b4ad3b8f994213fe54724",
+    "kind": "faq"
+  },
+  {
+    "id": "9b0dddcb2f1d428fa276982ff64b2495",
+    "title": "Q AIエレメントが機能がしなくなった",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/9b0dddcb2f1d428fa276982ff64b2495",
+    "kind": "faq"
+  },
+  {
+    "id": "e206035a27564103a7fcbda2d6ea77ca",
+    "title": "Q.LINE公式アカウントと連携できますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/e206035a27564103a7fcbda2d6ea77ca",
+    "kind": "faq"
+  },
+  {
+    "id": "10bb3ff290338076a716d1686c1c7bf9",
+    "title": "Ｑアカウント情報を作成できない。",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/10bb3ff290338076a716d1686c1c7bf9",
+    "kind": "faq"
+  },
+  {
+    "id": "113b3ff2903380b58ae6db3794913acd",
+    "title": "Q アプリの画面を上下にスクロールして閲覧させるにはどうしたら良いか",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/113b3ff2903380b58ae6db3794913acd",
+    "kind": "faq"
+  },
+  {
+    "id": "114b3ff2903380b29787cc44d532cd30",
+    "title": "Q 「計算書式の挿入」での数値計算で必要となる「+,-,*,/」がキーボードから入力できません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/114b3ff2903380b29787cc44d532cd30",
+    "kind": "faq"
+  },
+  {
+    "id": "126b3ff290338094aa9cee3c6d6e3f32",
+    "title": "Qインボイス制度に対応していますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/126b3ff290338094aa9cee3c6d6e3f32",
+    "kind": "faq"
+  },
+  {
+    "id": "182b3ff2903380079340d9889725e234",
+    "title": "Qローカルストレージを利用することはできますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/182b3ff2903380079340d9889725e234",
+    "kind": "faq"
+  },
+  {
+    "id": "19eb3ff2903380e6824fd38ec40bfa42",
+    "title": "Q「Standardプラン」を契約してから数か月後に「Proプラン」にアップグレードすることは可能ですか",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/19eb3ff2903380e6824fd38ec40bfa42",
+    "kind": "faq"
+  },
+  {
+    "id": "1a8b3ff29033803687e9ec08200112f1",
+    "title": "Q.フォームの入力を必須に設定する方法",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1a8b3ff29033803687e9ec08200112f1",
+    "kind": "faq"
+  },
+  {
+    "id": "1aeb3ff29033801d873dea0341cd95a9",
+    "title": "Q日付インプットでフォーマットを選択する方法",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1aeb3ff29033801d873dea0341cd95a9",
+    "kind": "faq"
+  },
+  {
+    "id": "1b2b3ff29033801fac1cea591168b1fe",
+    "title": "Qアプリにアイコンを設定する方法",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1b2b3ff29033801fac1cea591168b1fe",
+    "kind": "faq"
+  },
+  {
+    "id": "1cfb3ff2903380d39981f52da754a2f0",
+    "title": "アプリビルド時のエラー",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1cfb3ff2903380d39981f52da754a2f0",
+    "kind": "faq"
+  },
+  {
+    "id": "1dcb3ff290338087849ef6e8bf804501",
+    "title": "Q. SSL対応はどのように行えばよいですか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1dcb3ff290338087849ef6e8bf804501",
+    "kind": "faq"
+  },
+  {
+    "id": "1dfb3ff29033808d8b5cecac26926b26",
+    "title": "Q.アプリ内でメール送信機能を実装しましたが、ユーザーにメールが届きません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1dfb3ff29033808d8b5cecac26926b26",
+    "kind": "faq"
+  },
+  {
+    "id": "1dfb3ff2903380528f32f194b57fe23e",
+    "title": "Q.アプリを作成中に不具合が発生しました。挙動がおかしく、うまく動作しません。どうすればいいですか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1dfb3ff2903380528f32f194b57fe23e",
+    "kind": "faq"
+  },
+  {
+    "id": "1dfb3ff29033808e9b38e67ca293b801",
+    "title": "Q.連携が成功したのに、kintone側にデータが反映されない",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1dfb3ff29033808e9b38e67ca293b801",
+    "kind": "faq"
+  },
+  {
+    "id": "1dfb3ff2903380028b72f68277e40088",
+    "title": "Q.位置情報を取得するにはどうしたらよいでしょうか",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1dfb3ff2903380028b72f68277e40088",
+    "kind": "faq"
+  },
+  {
+    "id": "1e6b3ff2903380b2a425f6cabad32b00",
+    "title": "Q.画像投稿によるストレージ容量はどの程度必要ですか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1e6b3ff2903380b2a425f6cabad32b00",
+    "kind": "faq"
+  },
+  {
+    "id": "1f1b3ff29033800ea62ee70c0dda6793",
+    "title": "Q. Clickにおけるデータベース保存時の暗号化処理など、セキュリティ対策について教えてください",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/1f1b3ff29033800ea62ee70c0dda6793",
+    "kind": "faq"
+  },
+  {
+    "id": "be1b80a279794ec6ba590a2520f670a9",
+    "title": "📩 Q Click新規登録時に認証メールが届きません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/be1b80a279794ec6ba590a2520f670a9",
+    "kind": "faq"
+  },
+  {
+    "id": "253b3ff2903380f29218dd753a47e063",
+    "title": "Q.スマホで撮影した自分の写真を、アプリにアップロードすると色が消え、解像度が下がってしまう",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/253b3ff2903380f29218dd753a47e063",
+    "kind": "faq"
+  },
+  {
+    "id": "253b3ff2903380868857c8f02c27c863",
+    "title": "Q. Clickアプリのデータ保護についてどのように行われているか教えてください",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/253b3ff2903380868857c8f02c27c863",
+    "kind": "faq"
+  },
+  {
+    "id": "255b3ff2903380319dd2d0f9c815f160",
+    "title": "Ｑ.バリデーションチェックに関して",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/255b3ff2903380319dd2d0f9c815f160",
+    "kind": "faq"
+  },
+  {
+    "id": "279b3ff2903380aaa667ed716743889c",
+    "title": "LINEブラウザではポップアップ制限によりClickペイ決済画面が正しく表示されない",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/279b3ff2903380aaa667ed716743889c",
+    "kind": "faq"
+  },
+  {
+    "id": "d8678a5344064939b01aabc19a8cfb28",
+    "title": "Qアップロードできるファイルサイズに指定はありますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/d8678a5344064939b01aabc19a8cfb28",
+    "kind": "faq"
+  },
+  {
+    "id": "286b3ff290338093ac93f85785263255",
+    "title": "Ｑ.Click → Googleスプレッドシート連携時のリレーション項目の連携について",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/286b3ff290338093ac93f85785263255",
+    "kind": "faq"
+  },
+  {
+    "id": "29cb3ff2903380b48facf3edac6dbc68",
+    "title": "Qアプリがビルドできません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/29cb3ff2903380b48facf3edac6dbc68",
+    "kind": "faq"
+  },
+  {
+    "id": "2c4b3ff2903380bfbb56c5b538105169",
+    "title": "Qドロップダウンのリストを五十音順（あいうえお順）に並び替えたいです。A～Z などではうまく並び替えられませんでした。対処方法はありますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/2c4b3ff2903380bfbb56c5b538105169",
+    "kind": "faq"
+  },
+  {
+    "id": "2eeb3ff290338022b421e5a16532551c",
+    "title": "Q. ページ上で情報が即時に反映されません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/2eeb3ff290338022b421e5a16532551c",
+    "kind": "faq"
+  },
+  {
+    "id": "2f6b3ff29033803fbaa6e6793748655c",
+    "title": "Q.ワークスペースアプリ一覧に表示されているアプリの最終変更日とは、どの操作を基準として更新される日時ですか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/2f6b3ff29033803fbaa6e6793748655c",
+    "kind": "faq"
+  },
+  {
+    "id": "2fcb3ff290338033a828e36db2d05ea4",
+    "title": "Q.キャンバス上にエレメントが残ってしまって消す事ができない",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/2fcb3ff290338033a828e36db2d05ea4",
+    "kind": "faq"
+  },
+  {
+    "id": "306b3ff2903380a2873fd17c635b7f69",
+    "title": "Q: 画像インプットで画像が表示されません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/306b3ff2903380a2873fd17c635b7f69",
+    "kind": "faq"
+  },
+  {
+    "id": "306b3ff2903380be8c22d0156d0cc907",
+    "title": "Q.リストの中にテキストインプットや画像インプットを入れたいのですが、できません",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/306b3ff2903380be8c22d0156d0cc907",
+    "kind": "faq"
+  },
+  {
+    "id": "309b3ff2903380c8b87be8a905aaca6d",
+    "title": "Q.ボタンを押した時に、意図せず空のデータが作成されてしまいます。ボタンのアクションを確認しても異常がありません。",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/309b3ff2903380c8b87be8a905aaca6d",
+    "kind": "faq"
+  },
+  {
+    "id": "309b3ff290338069afb8ca8533c9df77",
+    "title": "Q.表示条件を設定する際、どの項目で比較するのが良いですか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/309b3ff290338069afb8ca8533c9df77",
+    "kind": "faq"
+  },
+  {
+    "id": "319b3ff2903380878636efb134f8fe51",
+    "title": "Q. ClickPayで誤った金額を決済してしまいました。金額を変更できますか？",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/319b3ff2903380878636efb134f8fe51",
+    "kind": "faq"
+  },
+  {
+    "id": "32eb3ff2903381bbbcf7d45084de7011",
+    "title": "Q.スタッフを招待しようとすると「user not found」と表示され、招待できない (Proプラン以上）",
+    "category": "FAQ",
+    "url": "https://manual.click.dev/32eb3ff2903381bbbcf7d45084de7011",
+    "kind": "faq"
+  }
+]

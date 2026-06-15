@@ -1,0 +1,380 @@
+[
+  {
+    "id": "G2OgstkLGiQ",
+    "title": "【Clickのレスポンシブ】#2 テキストスタイルとオートレイアウトの基本",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 2,
+    "url": "https://www.youtube.com/watch?v=G2OgstkLGiQ"
+  },
+  {
+    "id": "_pb56J1ZEM8",
+    "title": "【Clickのレスポンシブ】#3 均等配置とレスポンシブのデザイン調整",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 3,
+    "url": "https://www.youtube.com/watch?v=_pb56J1ZEM8"
+  },
+  {
+    "id": "wlZqMOEbDpM",
+    "title": "【Clickのレスポンシブ】#4 ページ全体のオートレイアウトと3つの配置(相対配置・固定配置・絶対配置)",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 4,
+    "url": "https://www.youtube.com/watch?v=wlZqMOEbDpM"
+  },
+  {
+    "id": "SClnYGiI0kU",
+    "title": "【Clickのレスポンシブ】#5 カスタムリストを使ったデザインと今までのおさらい",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 5,
+    "url": "https://www.youtube.com/watch?v=SClnYGiI0kU"
+  },
+  {
+    "id": "jECCowNJXho",
+    "title": "【Clickのレスポンシブ】#6 キャンバス内でのエレメント移動、パディング・マージンの可視化",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 6,
+    "url": "https://www.youtube.com/watch?v=jECCowNJXho"
+  },
+  {
+    "id": "qxn_AWi89KQ",
+    "title": "【Clickウェビナー】第2弾!アプリ開発におけるUIデザインの極意",
+    "kind": "video",
+    "group": "ウェビナー(応用)",
+    "tag": "webinar",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=qxn_AWi89KQ"
+  },
+  {
+    "id": "7kSWL_zCQhs",
+    "title": "【Clickウェビナー】アプリ開発におけるUIデザインの極意をCXOが解説!",
+    "kind": "video",
+    "group": "ウェビナー(応用)",
+    "tag": "webinar",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=7kSWL_zCQhs"
+  },
+  {
+    "id": "u6z7QzkSoLc",
+    "title": "【Clickウェビナー】リアルタイム爆速開発!Lottie &タイマー編",
+    "kind": "video",
+    "group": "ウェビナー(応用)",
+    "tag": "webinar",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=u6z7QzkSoLc"
+  },
+  {
+    "id": "HC_fIO434d0",
+    "title": "ワークスペース招待方法/Click操作解説",
+    "kind": "video",
+    "group": "はじめの設定",
+    "tag": "start",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=HC_fIO434d0"
+  },
+  {
+    "id": "6KqbMzBhXo8",
+    "title": "【Clickウェビナー】新機能「アンケート機能」を使い倒す!実践テク一挙大公開",
+    "kind": "video",
+    "group": "ウェビナー(応用)",
+    "tag": "webinar",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=6KqbMzBhXo8"
+  },
+  {
+    "id": "mWRF6VlZlGc",
+    "title": "【Clickウェビナー】リアルタイムでUI/UX改善!デザインレビュー",
+    "kind": "video",
+    "group": "ウェビナー(応用)",
+    "tag": "webinar",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=mWRF6VlZlGc"
+  },
+  {
+    "id": "SiBugc0LaoU",
+    "title": "【解説】Clickアプリにおける時間の計算方法について(開始時間と終了時間の差分による算出ルール)",
+    "kind": "video",
+    "group": "便利ワザ",
+    "tag": "howto",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=SiBugc0LaoU"
+  },
+  {
+    "id": "0RPKVPdfcZ0",
+    "title": "【Clickのレスポンシブ】#1 レスポンシブの基本とClickでの始め方",
+    "kind": "video",
+    "group": "レスポンシブ講座",
+    "tag": "responsive",
+    "order": 1,
+    "url": "https://www.youtube.com/watch?v=0RPKVPdfcZ0"
+  },
+  {
+    "id": "G7CJ_RVgTpE",
+    "title": "アクティベーションコード入力方法/Click操作解説",
+    "kind": "video",
+    "group": "はじめの設定",
+    "tag": "start",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=G7CJ_RVgTpE"
+  },
+  {
+    "id": "LxTiKOKzdgY",
+    "title": "アプリの設定とクローン方法/Click操作解説",
+    "kind": "video",
+    "group": "アプリの共有・複製",
+    "tag": "share",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=LxTiKOKzdgY"
+  },
+  {
+    "id": "LpSaRmzKP-s",
+    "title": "いいね機能[トグルエレメント]/Click操作解説",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=LpSaRmzKP-s"
+  },
+  {
+    "id": "fHchncEHCq4",
+    "title": "【5段階評価を直感的に実現!】星評価エレメント[新機能紹介]",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=fHchncEHCq4"
+  },
+  {
+    "id": "5QDlsNVKmLQ",
+    "title": "フォームエレメント/Click操作解説",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=5QDlsNVKmLQ"
+  },
+  {
+    "id": "laqSx_zNGE0",
+    "title": "【高度な検索を簡単に】検索フォームエレメント[新機能紹介]",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=laqSx_zNGE0"
+  },
+  {
+    "id": "13S94RYmDoM",
+    "title": "【最新版】中級編1ドロップダウン - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=13S94RYmDoM"
+  },
+  {
+    "id": "60cAgzRbk5k",
+    "title": "【最新版】超基本編1キャンバスと基本操作/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=60cAgzRbk5k"
+  },
+  {
+    "id": "SfTvk4Z3FZ0",
+    "title": "【最新版】中級編2リレーション(1) 予約する- イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=SfTvk4Z3FZ0"
+  },
+  {
+    "id": "B9b1XKrhDgY",
+    "title": "【最新版】中級編3リレーション(2) 予約を取り消す- イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=B9b1XKrhDgY"
+  },
+  {
+    "id": "N4o4eBv8Ll8",
+    "title": "【最新版】中級編4知っておきたい便利機能- イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=N4o4eBv8Ll8"
+  },
+  {
+    "id": "LybBpxN_318",
+    "title": "【すぐに使える新機能!】ページテンプレート「アンケート」",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=LybBpxN_318"
+  },
+  {
+    "id": "FDJ5MYG41_Y",
+    "title": "【新機能登場!】画像エレメントAI生成機能",
+    "kind": "video",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=FDJ5MYG41_Y"
+  },
+  {
+    "id": "ocF39ZIYb44",
+    "title": "【最新版】超基本編2キャンバスとログイン/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=ocF39ZIYb44"
+  },
+  {
+    "id": "XBW94le4psw",
+    "title": "【最新版】超基本編3データベース/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=XBW94le4psw"
+  },
+  {
+    "id": "J693mXq7BKA",
+    "title": "【最新版】超基本編4ホーム画面を作ろう - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=J693mXq7BKA"
+  },
+  {
+    "id": "GFXE1hcl2Js",
+    "title": "【最新版】超基本編5カスタムリスト - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=GFXE1hcl2Js"
+  },
+  {
+    "id": "CZDbzvzFa9Y",
+    "title": "【最新版】超基本編6アクション(1)ページ移動 - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=CZDbzvzFa9Y"
+  },
+  {
+    "id": "I6sNXs5rBCc",
+    "title": "【最新版】超基本編7アクション(2)データの登録 - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=I6sNXs5rBCc"
+  },
+  {
+    "id": "DtMIA0lBbcU",
+    "title": "【最新版】超基本編8アクション(3)データの更新 - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=DtMIA0lBbcU"
+  },
+  {
+    "id": "DrlRH0YzxYk",
+    "title": "【最新版】超基本編9アクション(4)データの削除 - イベント予約アプリ/Clickチュートリアル",
+    "kind": "video",
+    "group": "基礎チュートリアル",
+    "tag": "tutorial",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=DrlRH0YzxYk"
+  },
+  {
+    "id": "sHu1FW2dsoM",
+    "title": "【2025年版】Clickリニューアル完全ガイド!新機能と改善ポイントを徹底解説✨",
+    "kind": "video",
+    "group": "Clickを知る",
+    "tag": "overview",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=sHu1FW2dsoM"
+  },
+  {
+    "id": "PK5FEWGvGts",
+    "title": "Click商品説明",
+    "kind": "video",
+    "group": "Clickを知る",
+    "tag": "overview",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=PK5FEWGvGts"
+  },
+  {
+    "id": "TN1KzNFrEww",
+    "title": "よくある質問「ボタンに効果音をつける方法」について解説",
+    "kind": "short",
+    "group": "よくある質問(動画)",
+    "tag": "faq",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=TN1KzNFrEww"
+  },
+  {
+    "id": "HciJ1e7pJFg",
+    "title": "【よくある質問】ドロップダウン機能について",
+    "kind": "short",
+    "group": "よくある質問(動画)",
+    "tag": "faq",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=HciJ1e7pJFg"
+  },
+  {
+    "id": "rqnMMe1sHps",
+    "title": "【よくある質問】ポイント機能の付け方",
+    "kind": "short",
+    "group": "よくある質問(動画)",
+    "tag": "faq",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=rqnMMe1sHps"
+  },
+  {
+    "id": "zaVbZ3R9U10",
+    "title": "【Click新機能紹介】タイマーエレメントについて",
+    "kind": "short",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=zaVbZ3R9U10"
+  },
+  {
+    "id": "HglLRH8oua0",
+    "title": "【Click新機能紹介】縦型動画エレメントについて",
+    "kind": "short",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=HglLRH8oua0"
+  },
+  {
+    "id": "yDvdaGyU_pc",
+    "title": "【Click新機能紹介】Lottieエレメントについて",
+    "kind": "short",
+    "group": "新機能・エレメント紹介",
+    "tag": "feature",
+    "order": 99,
+    "url": "https://www.youtube.com/watch?v=yDvdaGyU_pc"
+  }
+]
