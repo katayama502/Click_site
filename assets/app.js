@@ -45,8 +45,39 @@
 
   let activeCat = "ALL";
   const $ = (id) => document.getElementById(id);
-  const homeView = $("homeView"), videoView = $("videoView"), searchResults = $("searchResults");
+  const homeView = $("homeView"), videoView = $("videoView"), searchResults = $("searchResults"), mypageView = $("mypageView");
   const heroEl = $("hero");
+
+  /* ── クッキーベースのお気に入り ── */
+  function getSaved() {
+    const m = document.cookie.match(/(?:^|;)\s*click_saved=([^;]*)/);
+    try { return JSON.parse(decodeURIComponent(m ? m[1] : "[]")); } catch(e) { return []; }
+  }
+  function setSaved(ids) {
+    document.cookie = "click_saved=" + encodeURIComponent(JSON.stringify(ids)) + ";path=/;max-age=" + (60*60*24*365);
+  }
+  function isSaved(id) { return getSaved().indexOf(id) >= 0; }
+  function toggleSaved(id) {
+    const ids = getSaved();
+    const i = ids.indexOf(id);
+    if (i >= 0) ids.splice(i, 1); else ids.push(id);
+    setSaved(ids);
+    return ids.indexOf(id) >= 0;
+  }
+  function updateSaveUI(id) {
+    const saved = isSaved(id);
+    document.querySelectorAll("[data-save]").forEach(btn => {
+      if (btn.dataset.save !== id) return;
+      btn.classList.toggle("saved", saved);
+      if (btn.classList.contains("modal-save-btn")) {
+        btn.textContent = saved ? "❤ 保存済み" : "🤍 保存する";
+      } else {
+        btn.textContent = saved ? "❤" : "🤍";
+      }
+      btn.setAttribute("aria-label", saved ? "保存済み" : "保存する");
+    });
+    if (mypageView && !mypageView.hidden) renderMyPage();
+  }
 
   function escapeHtml(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 
@@ -117,7 +148,18 @@
     html += cats.map(c => '<li class="cat-item '+(activeCat===c?"active":"")+'" data-cat="'+escapeHtml(c)+'"><span class="cat-emoji">'+CAT_META[c].emoji+'</span>'+escapeHtml(c)+'<span class="cat-count">'+counts[c]+'</span></li>').join("");
     $("catList").innerHTML = html;
     $("catList").querySelectorAll(".cat-item").forEach(el => {
-      el.addEventListener("click", () => { activeCat = el.dataset.cat; renderSidebar(); renderTopics(); closeDrawer(); window.scrollTo({top: heroEl.offsetHeight, behavior:"smooth"}); });
+      el.addEventListener("click", () => {
+        activeCat = el.dataset.cat;
+        renderSidebar();
+        renderTopics();
+        // 検索・動画・マイページ表示中でもホームに戻してフィルターを見せる
+        $("searchInput").value = "";
+        $("searchClear").hidden = true;
+        searchResults.hidden = true; searchResults.textContent = "";
+        homeView.hidden = false; videoView.hidden = true; mypageView.hidden = true;
+        closeDrawer();
+        window.scrollTo({top: heroEl.offsetHeight, behavior:"smooth"});
+      });
     });
   }
 
@@ -147,10 +189,17 @@
   function topicCardHtml(t, tokens) {
     const hasVid = relatedVideos(t,1).length > 0;
     const hasSteps = (t.steps || []).length > 0;
+    const saved = isSaved(t.id);
     const title = tokens ? highlight(t.title, tokens) : escapeHtml(t.title);
     const desc = tokens ? highlight(t.description||"", tokens) : escapeHtml(t.description||"");
+    const saveLabel = saved ? "保存済み" : "保存する";
+    const saveHeart = saved ? "❤" : "🤍";
+    const saveCls = saved ? " saved" : "";
     return '<div class="topic-card" data-id="'+escapeHtml(t.id)+'">'+
-      '<span class="topic-cat">'+(CAT_META[t.category]?CAT_META[t.category].emoji:"")+' '+escapeHtml(t.category)+'</span>'+
+      '<div class="card-header">'+
+        '<span class="topic-cat">'+(CAT_META[t.category]?CAT_META[t.category].emoji:"")+' '+escapeHtml(t.category)+'</span>'+
+        '<button class="save-btn'+saveCls+'" data-save="'+escapeHtml(t.id)+'" aria-label="'+saveLabel+'">'+saveHeart+'</button>'+
+      '</div>'+
       '<div class="topic-title">'+title+'</div>'+
       '<div class="topic-desc">'+desc+'</div>'+
       '<div class="topic-foot">'+(hasVid?'<span class="badge-video">🎬 動画あり</span>':'')+(hasSteps?'<span class="badge-steps">📝 手順あり</span>':'')+'</div>'+
@@ -167,8 +216,34 @@
 
   function bindTopicCards(scope) {
     scope.querySelectorAll(".topic-card").forEach(el => {
-      el.addEventListener("click", () => openTopicModal(el.dataset.id));
+      el.addEventListener("click", (e) => {
+        if (e.target.closest(".save-btn")) return;
+        openTopicModal(el.dataset.id);
+      });
     });
+    scope.querySelectorAll(".save-btn").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleSaved(btn.dataset.save);
+        updateSaveUI(btn.dataset.save);
+      });
+    });
+  }
+
+  function renderMyPage() {
+    const ids = getSaved();
+    const savedTopics = ids.map(id => TOPICS.find(t => t.id === id)).filter(Boolean);
+    const grid = $("mypageGrid");
+    if (!savedTopics.length) {
+      grid.textContent = "";
+      const empty = document.createElement("div");
+      empty.className = "mypage-empty";
+      empty.innerHTML = '<div class="mypage-empty-icon">🤍</div><p>保存したカードがまだありません。</p><p>解説カードの ❤ ボタンを押すと、ここに追加されます。</p>';
+      grid.appendChild(empty);
+      return;
+    }
+    grid.innerHTML = '<p class="mypage-count">'+savedTopics.length+'件 保存済み</p>' + savedTopics.map(t => topicCardHtml(t)).join("");
+    bindTopicCards(grid);
   }
 
   function doSearch(query) {
@@ -179,7 +254,7 @@
     const tHits = TOPICS.map(t => ({ t, s: scoreTopic(t, tokens) })).filter(x => x.s > 0).sort((a,b)=>b.s-a.s);
     const vHits = VIDEOS.map(v => ({ v, s: scoreVideo(v, tokens) })).filter(x => x.s > 0).sort((a,b)=>b.s-a.s).slice(0,8);
 
-    homeView.hidden = true; videoView.hidden = true; searchResults.hidden = false;
+    homeView.hidden = true; videoView.hidden = true; mypageView.hidden = true; searchResults.hidden = false;
     let html = '<div class="sr-head">「'+escapeHtml(query)+'」の検索結果：解説 '+tHits.length+'件 / 動画 '+vHits.length+'件</div>';
     if (!tHits.length && !vHits.length) {
       html += '<div class="sr-empty">見つかりませんでした。別のことばで試してみてください。<br>例：「ボタン」「データ」「公開」</div>';
@@ -199,8 +274,8 @@
     bindTopicCards(searchResults);
   }
   function exitSearch() {
-    searchResults.hidden = true; searchResults.innerHTML = "";
-    homeView.hidden = false; videoView.hidden = true;
+    searchResults.hidden = true; searchResults.textContent = "";
+    homeView.hidden = false; videoView.hidden = true; mypageView.hidden = true;
   }
 
   function videoCardHtml(v) {
@@ -222,8 +297,12 @@
     const t = TOPICS.find(x => x.id === id);
     if (!t) return;
     const vids = relatedVideos(t, 2);
+    const saved = isSaved(t.id);
+    const saveBtnCls = "modal-save-btn" + (saved ? " saved" : "");
+    const saveBtnText = saved ? "❤ 保存済み" : "🤍 保存する";
     let html = '<span class="md-cat">'+(CAT_META[t.category]?CAT_META[t.category].emoji:"")+' '+escapeHtml(t.category)+'</span>';
     html += '<h2 class="md-title">'+escapeHtml(t.title)+'</h2>';
+    html += '<button class="'+saveBtnCls+'" data-save="'+escapeHtml(t.id)+'" aria-label="'+(saved?"保存済み":"保存する")+'">'+saveBtnText+'</button>';
     html += '<p class="md-desc">'+escapeHtml(t.description||"")+'</p>';
     if (t.whenToUse) html += '<div class="md-when"><b>こんな時に</b> '+escapeHtml(t.whenToUse)+'</div>';
     if ((t.steps||[]).length) {
@@ -242,6 +321,13 @@
     }
     html += '<a class="md-manual" href="'+escapeHtml(t.manualUrl)+'" target="_blank" rel="noopener">📘 公式マニュアルで詳しく見る ↗</a>';
     $("modalBody").innerHTML = html;
+    const modalSaveBtn = $("modalBody").querySelector(".modal-save-btn");
+    if (modalSaveBtn) {
+      modalSaveBtn.addEventListener("click", () => {
+        toggleSaved(modalSaveBtn.dataset.save);
+        updateSaveUI(modalSaveBtn.dataset.save);
+      });
+    }
     showModal();
   }
   function openVideoModal(vid) {
@@ -260,8 +346,23 @@
 
   function go(view) {
     closeDrawer();
-    if (view === "videos") { exitSearch(); homeView.hidden = true; videoView.hidden = false; renderVideoLibrary(); window.scrollTo({top:0,behavior:"smooth"}); }
-    else { $("searchInput").value=""; $("searchClear").hidden=true; exitSearch(); window.scrollTo({top:0,behavior:"smooth"}); }
+    if (view === "videos") {
+      $("searchInput").value=""; $("searchClear").hidden=true;
+      searchResults.hidden=true; searchResults.textContent="";
+      homeView.hidden=true; mypageView.hidden=true; videoView.hidden=false;
+      renderVideoLibrary();
+      window.scrollTo({top:0,behavior:"smooth"});
+    } else if (view === "mypage") {
+      $("searchInput").value=""; $("searchClear").hidden=true;
+      searchResults.hidden=true; searchResults.textContent="";
+      homeView.hidden=true; videoView.hidden=true; mypageView.hidden=false;
+      renderMyPage();
+      window.scrollTo({top:0,behavior:"smooth"});
+    } else {
+      $("searchInput").value=""; $("searchClear").hidden=true;
+      exitSearch();
+      window.scrollTo({top:0,behavior:"smooth"});
+    }
   }
 
   function init() {
@@ -290,8 +391,10 @@
     $("menuToggle").addEventListener("click", toggleDrawer);
     $("drawerClose").addEventListener("click", closeDrawer);
     $("drawerBackdrop").addEventListener("click", closeDrawer);
-    // ドロワー内の外部リンク(公式マニュアル)タップでも閉じる
-    document.querySelectorAll(".drawer-nav .drawer-link").forEach(el => el.addEventListener("click", closeDrawer));
+    // ドロワー内の外部リンク(公式マニュアル)タップでも閉じる（data-navは go() 内で closeDrawer 済み）
+    document.querySelectorAll(".drawer-nav .drawer-link").forEach(el => {
+      if (!el.dataset.nav) el.addEventListener("click", closeDrawer);
+    });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
