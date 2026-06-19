@@ -158,7 +158,9 @@
         searchResults.hidden = true; searchResults.textContent = "";
         homeView.hidden = false; videoView.hidden = true; mypageView.hidden = true;
         closeDrawer();
-        window.scrollTo({top: heroEl.offsetHeight, behavior:"smooth"});
+        // カテゴリ絞り込み時はトピックセクションの直前までスクロール
+        const scrollTarget = activeCat === "ALL" ? heroEl.offsetHeight : $("topicsSection").offsetTop - 16;
+        window.scrollTo({top: scrollTarget, behavior:"smooth"});
       });
     });
   }
@@ -207,8 +209,13 @@
   }
 
   function renderTopics() {
-    const list = activeCat === "ALL" ? TOPICS : TOPICS.filter(t => t.category === activeCat);
-    $("topicsTitle").textContent = activeCat === "ALL" ? "すべての解説" : (CAT_META[activeCat].emoji + " " + activeCat);
+    const isAll = activeCat === "ALL";
+    const list = isAll ? TOPICS : TOPICS.filter(t => t.category === activeCat);
+    // カテゴリ絞り込み時は上部の「目的から探す」「はじめての人は…」を隠して
+    // フィルター済みカードだけを目立たせる
+    $("goalsSection").hidden = !isAll;
+    $("pathSection").hidden = !isAll;
+    $("topicsTitle").textContent = isAll ? "すべての解説" : (CAT_META[activeCat].emoji + " " + activeCat);
     $("topicsCount").textContent = list.length + "件";
     $("topicGrid").innerHTML = list.map(t => topicCardHtml(t)).join("");
     bindTopicCards($("topicGrid"));
@@ -233,17 +240,31 @@
   function renderMyPage() {
     const ids = getSaved();
     const savedTopics = ids.map(id => TOPICS.find(t => t.id === id)).filter(Boolean);
-    const grid = $("mypageGrid");
+    const wrap = $("mypageGrid");
+    wrap.textContent = "";
     if (!savedTopics.length) {
-      grid.textContent = "";
       const empty = document.createElement("div");
       empty.className = "mypage-empty";
-      empty.innerHTML = '<div class="mypage-empty-icon">🤍</div><p>保存したカードがまだありません。</p><p>解説カードの ❤ ボタンを押すと、ここに追加されます。</p>';
-      grid.appendChild(empty);
+      const icon = document.createElement("div");
+      icon.className = "mypage-empty-icon";
+      icon.textContent = "🤍";
+      const p1 = document.createElement("p");
+      p1.textContent = "保存したカードがまだありません。";
+      const p2 = document.createElement("p");
+      p2.textContent = "解説カードの ❤ ボタンを押すと、ここに追加されます。";
+      empty.appendChild(icon); empty.appendChild(p1); empty.appendChild(p2);
+      wrap.appendChild(empty);
       return;
     }
-    grid.innerHTML = '<p class="mypage-count">'+savedTopics.length+'件 保存済み</p>' + savedTopics.map(t => topicCardHtml(t)).join("");
-    bindTopicCards(grid);
+    const count = document.createElement("p");
+    count.className = "mypage-count";
+    count.textContent = savedTopics.length + "件 保存済み";
+    wrap.appendChild(count);
+    const cardGrid = document.createElement("div");
+    cardGrid.className = "topic-grid";
+    cardGrid.innerHTML = savedTopics.map(t => topicCardHtml(t)).join("");
+    wrap.appendChild(cardGrid);
+    bindTopicCards(cardGrid);
   }
 
   function doSearch(query) {
@@ -360,6 +381,9 @@
       window.scrollTo({top:0,behavior:"smooth"});
     } else {
       $("searchInput").value=""; $("searchClear").hidden=true;
+      activeCat = "ALL";
+      renderSidebar();
+      renderTopics(); // goals/path セクションも復元される
       exitSearch();
       window.scrollTo({top:0,behavior:"smooth"});
     }
